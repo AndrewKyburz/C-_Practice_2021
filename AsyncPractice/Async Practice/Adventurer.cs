@@ -138,7 +138,7 @@ namespace AsyncPractice
 
         public static async void GenericTask(Action action)
         {
-            var taskReturn = new Task(() => { action; });
+            var taskReturn = new Task(() => {  });
         }
 
         #endregion TaskBasedMethods

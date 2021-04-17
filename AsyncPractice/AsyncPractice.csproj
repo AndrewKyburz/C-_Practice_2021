@@ -14,6 +14,9 @@
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile />
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>AsyncPractice.Database_Connections.ConnectionPractice</StartupObject>
+  </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
@@ -46,6 +49,7 @@
   <ItemGroup>
     <Compile Include="Async Practice\Adventurer.cs" />
     <Compile Include="Async Practice\Chef.cs" />
+    <Compile Include="Database Connections\ConnectionPractice.cs" />
     <Compile Include="Design Patterns\AbstractFactory.cs" />
     <Compile Include="Design Patterns\AdventurerFactory.cs" />
     <Compile Include="Async Practice\Program.cs" />
