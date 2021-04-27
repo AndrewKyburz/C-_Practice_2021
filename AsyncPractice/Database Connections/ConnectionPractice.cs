@@ -22,16 +22,16 @@ namespace AsyncPractice.Database_Connections
                 using (var sqlConnection = new SqlConnection(connectionString)) {
                 using(var command = sqlConnection.CreateCommand())
                 {
-                    command.CommandText(){
+                    /*command.CommandText(){
 
-                    };
+                    };*/
                 }
             }
 
             }
             catch (Exception e)
             {
-                Console.WriteLine("Error, something went wrong. {0}", e.Message)
+                Console.WriteLine("Error, something went wrong. {0}", e.Message);
             }
 
             
